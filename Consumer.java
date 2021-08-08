@@ -7,8 +7,8 @@ public class Consumer {
 
         while (true) {
             Thread.sleep(200);
-            System.out.println(" Deleted " + queue.take());
             System.out.println("Queue array " + queue.toString() + " size " + queue.size());
+            System.out.println("Deleted " + queue.take());
         }
 
     }
